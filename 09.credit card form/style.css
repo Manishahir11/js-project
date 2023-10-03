@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html body {
+    width: 100%;
+    height: 100%;
+    background-color: #2d2c2c;
+    background-image: url("credit\ card.jpg");
+    background-position: center;
+
+    background: no-repeat;
+
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.from {
+    
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(246, 241, 241);
+    color: #030303;
+    border-radius: 14px;
+    box-shadow: 10px 10px 10px 10px #030303;
+}
+
+.credit-card {
+    background-image: url("crd.png");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 350px;
+    color: rgb(3, 0, 0);
+    border: 1px solid black;
+    border-radius: 18px;
+    position: absolute;
+    top: 40px;
+    left: 420px;
+}
+
+.card-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.credit-card h1 {
+    text-align: end;
+}
+
+.credit-card h1 img {
+    height: 40px;
+    width: 50px;
+    margin: 5px;
+}
+
+.credit-card p {
+    margin-top: 55px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.detels {
+    margin: 150px 100px;
+    color: #030303;
+}
+
+.detels label {
+    margin: 10px 0;
+}
+
+input {
+    margin: 10px 0;
+}
+
+.card-back {
+    background-image: url("crd.png");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 350px;
+    color: rgb(3, 0, 0);
+    border: 1px solid black;
+    border-radius: 18px;
+    position: absolute;
+    top: 40px;
+    left: 420px;
+    display: none;
+    transition: all 1s ;
+}
+
+.balckline {
+    margin-top: 62px;
+    width: 100%;
+    height: 20%;
+    background-color: #030303;
+}
+
+.card-back h4 {
+    text-align: end;
+    margin-right: 17px;
+}
+
+.whiteline {
+    width: 90%;
+    height: 20%;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.logo {
+    /* margin-top: 4px; */
+    text-align: end;
+    margin-right: 17px;
+}
+
+.logo img {
+    height: 40px;
+    width: 50px;
+
+}
