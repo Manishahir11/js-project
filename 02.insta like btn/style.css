@@ -48,10 +48,10 @@ body {
     transition: transform ease 0.5s ;
 }
 
-.commit i{  
-    opacity: 1;
-    position: absolute;
-    color: #130101;
+
+.commit1 .bx{  
+    display: flex;
+    text-align: center;
     font-size: 25px;
     font-weight: 200;
 }
